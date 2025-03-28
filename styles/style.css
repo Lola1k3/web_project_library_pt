@@ -5,8 +5,8 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  background-color: #ffffff;
-  color: #000000;
+  /*background-color: #ffffff;
+  color: #000000;*/
 }
 
 .header {
@@ -23,7 +23,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .nav__logo {
@@ -56,7 +56,6 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
   margin-top: 128px;
 }
 
@@ -69,7 +68,6 @@
 
 .header__image {
   max-width: 636px;
-  height: auto;
 }
 
 .header__footer {
@@ -79,6 +77,11 @@
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__address {
@@ -96,7 +99,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  background-position: center;
+  /*flex-direction: columm*/
 }
 
 .staff__title {
@@ -115,20 +119,17 @@
   font-weight: 400;
   margin: 0;
   color: #ffffff;
-  margin-bottom: 68px;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   list-style-type: none;
-  align-items: center;
   padding: 0;
-  width: 100%;
 }
 
 .card {
@@ -138,6 +139,7 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
+  margin: 0;
 }
 
 .card__content {
