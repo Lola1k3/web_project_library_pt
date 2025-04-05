@@ -116,13 +116,14 @@
   font-weight: 400;
   margin: 0;
   color: #ffffff;
-  margin-bottom: 68px;
+  /*margin-bottom: 68px;*/
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: 0 auto;
+  margin: 68px auto 0;
   display: flex;
+  padding: 0;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
@@ -159,6 +160,7 @@
 .card__text {
   margin: 20px 0 0;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .card__footer {
@@ -252,7 +254,7 @@
 }
 
 .person_name_feynman {
-  top: -39px;
+  top: -30px;
   left: 319px;
 }
 
